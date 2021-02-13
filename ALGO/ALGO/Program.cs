@@ -7,8 +7,8 @@ namespace ALGO
     {
         static void Main(string[] args)
         {
-            TwoSum twoSum = new TwoSum();
-            twoSum.Run();
+            ValidateSubsequence validateSubsequence = new ValidateSubsequence();
+            validateSubsequence.Run();
             Console.ReadLine();
         }
     }
