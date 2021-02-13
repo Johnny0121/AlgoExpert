@@ -1,4 +1,5 @@
-﻿using ALGO.Problems;
+﻿using ALGO.Helper;
+using ALGO.Problems;
 using System;
 
 namespace ALGO
@@ -7,8 +8,6 @@ namespace ALGO
     {
         static void Main(string[] args)
         {
-            ValidateSubsequence validateSubsequence = new ValidateSubsequence();
-            validateSubsequence.Run();
             Console.ReadLine();
         }
     }
