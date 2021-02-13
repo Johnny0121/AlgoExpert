@@ -8,6 +8,8 @@ namespace ALGO
     {
         static void Main(string[] args)
         {
+            NonConstructableChange nonConstructable = new NonConstructableChange();
+            nonConstructable.Run();
             Console.ReadLine();
         }
     }
