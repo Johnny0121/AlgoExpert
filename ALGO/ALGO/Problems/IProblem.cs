@@ -1,8 +1,7 @@
 ﻿namespace ALGO.Problems
 {
-    interface IProblem
+    internal interface IProblem
     {
         void Run();
-        void Init();
     }
 }

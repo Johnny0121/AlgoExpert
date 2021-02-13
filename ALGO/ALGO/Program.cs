@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ALGO.Problems;
+using System;
 
 namespace ALGO
 {
@@ -6,7 +7,9 @@ namespace ALGO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TwoSum twoSum = new TwoSum();
+            twoSum.Run();
+            Console.ReadLine();
         }
     }
 }
