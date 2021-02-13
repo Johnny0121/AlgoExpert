@@ -8,8 +8,8 @@ namespace ALGO
     {
         static void Main(string[] args)
         {
-            NonConstructableChange nonConstructable = new NonConstructableChange();
-            nonConstructable.Run();
+            FindClosestValueInBST findClosestValueInBST = new FindClosestValueInBST();
+            findClosestValueInBST.Run();
             Console.ReadLine();
         }
     }
